@@ -30,8 +30,8 @@ def find_mismatch(text):
 
 
 def main():
-    text = input()
-    if text.capitalize() == "I":
+    input = input()
+    if input.capitalize() == "I":
         text = input()
         mismatch = find_mismatch(text)
         print(mismatch)
