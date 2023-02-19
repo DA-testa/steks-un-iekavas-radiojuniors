@@ -31,7 +31,7 @@ def find_mismatch(text):
 
 def main():
     inp = input()
-    if inp.capitalize() == "I":
+    if inp[0].capitalize() == "I":
         text = input()
         mismatch = find_mismatch(text)
         print(mismatch)
